@@ -12,7 +12,7 @@ sequelize.authenticate().then(function(){
 });
 
 //Apagar registro no BD
-//sequelize.query("delete from forms where id = 11")
+//sequelize.query("delete from forms where id = 1")
 
 module.exports = {
     Sequelize: Sequelize,

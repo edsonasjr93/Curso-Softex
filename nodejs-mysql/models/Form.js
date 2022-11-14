@@ -22,4 +22,6 @@ const Form = db.sequelize.define('forms',{
     },
 })
 
+//Form.sync({force: true})
+
 module.exports = Form

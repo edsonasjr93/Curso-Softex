@@ -16,19 +16,19 @@
         <p>
             <div>
                 <label for="nome">Nome Completo</label>
-                <input name="nome" type="text" id="nome"  placeholder="Digite o seu nome completo" required>
+                <input name="nome" type="text" id="nome"  placeholder="Digite o seu nome completo" pattern="[a-zA-Z\s]+$" required>
             </div>
         </p>
         
         <p>
             <label>C.P.F.:</label>
-            <input name="cpf" type="text" placeholder="Digite o seu CPF" maxlength="11" required>
+            <input name="cpf" type="text" placeholder="Digite o seu CPF" maxlength="11" pattern="[0-9]+$"  required>
         </p>
     
         <p>
             <div>
                 <label for="email">E-mail</label>
-                <input name="email" type="email" id="email" placeholder="Digite o seu email" required>
+                <input name="email" type="email" id="email" placeholder="Digite o seu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             </div>
         </p>
     
