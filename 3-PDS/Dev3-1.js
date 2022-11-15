@@ -1,3 +1,5 @@
+// Factory Method + JS
+
 function computadorFactory(ram, hdd, cpu, type) {
     this.ram = ram;
     this.hdd = hdd;
