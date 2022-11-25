@@ -20,6 +20,8 @@ Basta executar o arquivo login.js
   
 O APP inicializará na porta `http://localhost:3000`
 
+o Banco de dados está configurado para não ter usuário e email duplicados `models/Accounts.js` as colunas username e email receberam o atributo `unique: true`.
+
 (EN-us)
 =======
 
@@ -40,3 +42,5 @@ Just run the login.js file
    -node login.js
   
 APP will start on port `http://localhost:3000`
+
+the Database is configured to not have duplicate user and email `models/Accounts.js` the username and email columns received the `unique: true` attribute.
