@@ -62,12 +62,12 @@ app.post('/auth', function(request, response) {
 				// Redirecionar para a página inicial
 				response.redirect('/home');
 			} else {
-				response.send('Usuário e/ou senha incorretos!');
+				response.send('<h1>Usuário e/ou senha incorretos!</h1>');
 			}			
 			response.end();
 		});
 	} else {
-		response.send('Por favor, digite o usuário e a senha!');
+		response.send('<h1>Por favor, digite o usuário e a senha!</h1>');
 		response.end();
 	}
 });
