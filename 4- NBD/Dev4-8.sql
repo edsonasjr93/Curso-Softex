@@ -57,3 +57,5 @@ SHOW TRIGGERS
 
 DROP TRIGGER Tgr_ItensVenda_Insert
 DROP TRIGGER Tgr_ItensVenda_Delete
+
+-- Aprendi com https://www.devmedia.com.br/mysql-basico-triggers/37462
