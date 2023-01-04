@@ -13,3 +13,7 @@ app.post('/post', (request, response) => {
 app.listen(8080, () => {
   console.log('Servidor iniciado na porta 8080');
 });
+
+// localhost/8080
+// localhost/8080/get
+// localhost/8080/post
