@@ -2,11 +2,11 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.get('/get', (request, response) => {
   response.send('Recebi uma requisição GET');
 });
 
-app.post('/', (request, response) => {
+app.post('/post', (request, response) => {
   response.send('Recebi uma requisição POST');
 });
 
